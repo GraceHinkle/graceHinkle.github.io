@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(148, 148, 148);
+    /*background-image: url('Background1.jpg');*/
+    }
+  @media only screen and (min-width: 768px) { 
+    /**media query**/
+    }
+  i {
+    color:aliceblue;
+    font-size: 50px;
+    font-family: 'myFirstFont';
+    margin-top: 2%;
+    }
+  i:hover {
+        color: darkmagenta;
+    }
+  iframe{
+        margin-left: 27%;
+        margin-top: 50px;
+        size: 40%;
+    }
+
+    @font-face {
+        font-family: myFirstFont;
+        src: url(RubikIso-Regular.ttf);
+    }
+  /*headings*/
+  h1 {
+    text-align: center;
+    color: rgb(0, 44, 82);
+    font-family: 'Impact';
+    font-size: 350%;
+    margin-top: 3%;
+  }
+  /*text*/
+  p {
+    font-family: 'Calibri';
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+/*ID's*/
+  #Header2 {
+    color: aliceblue;
+  }
+  #lis {
+    font-family: Courier;
+    font-weight: bold;
+  }
+  #text {
+    color: rgb(239, 150, 114);
+  }
+  #words1 { 
+    background-color: aqua;
+    opacity: 80%;
+  }
+  #words2 { 
+    background-color: rgb(77, 126, 85);
+    opacity: 75%;
+  }
+  #words3 { 
+    background-color: rgb(255, 136, 0);
+    opacity: 75%;
+  }
+  #h1:hover {
+    color: red;
+  }
+  #div {
+    color: rgb(166, 121, 121);
+    margin-top: 50px;
+  }
+
+/*Class Selectors*/
+  /*images*/
+  .MeCowgirl {
+    margin-left: 40%;
+    width: 20%; 
+  }
+
+  .media1 { 
+    color:aqua;
+    font-family: monospace;
+    font-size: 200%;
+    font-weight: 2500;
+  }
+  .media2 { 
+    color: rgb(77, 126, 85);
+    font-family: Garamond;
+    font-size: 200%;
+    font-weight: 2500;
+  }
+  .media3 { 
+    color: rgb(255, 136, 0);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 200%;
+    font-weight: 2500;
+  }
+
+  /*animations*/
+    .spin:hover{
+            animation: rotation 6s linear infinite;
+    }
+    .rotate {
+            animation: rotation 6s linear infinite;
+        }
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+    .rotate:hover {
+            animation: rotation .5s linear infinite;
+        }
+
+  
+  /*nav bar*/
+  .nav {
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    background-color: #1a1d42;
+  }
+
+  li a {
+    float: left;
+    display: block;
+    color: rgb(252, 127, 25);
+    text-align: center;
+    font-family: Tahoma;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
