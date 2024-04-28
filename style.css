@@ -72,9 +72,10 @@ body {
     margin-left: 7%;
     margin-right: 7%;
   }
-  
-  #h1:hover {
-    color: red;
+  #sharkiframe {
+    margin-right: 10%;
+    height: 200%;
+    width: 65%;
   }
   #div {
     font-family: 'Calibri';
@@ -90,6 +91,11 @@ body {
     outline-style: dashed;
     outline-width:.5cap;
     outline-color: aqua;
+  }
+  #Game1 {
+    width: 6%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 
 /*Class Selectors*/
@@ -161,7 +167,7 @@ body {
     overflow: hidden;
     padding: 0;
     background-color: #251a42;
-    text-align: left;
+    text-align: center;
     font-size: 75%;
     text-decoration: solid;
   }
