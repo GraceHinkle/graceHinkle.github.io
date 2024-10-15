@@ -121,8 +121,9 @@ body {
   }
   .magicalHorns {
     margin-left: 10%;
-    height: 30;
-    width: 40;
+    margin-right: 10%;
+    min-width: 10%;
+    max-width: 50%;
   }
   .mySkills {
     margin-left: 1%;
