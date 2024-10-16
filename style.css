@@ -33,6 +33,12 @@ body {
     font-size: 400%;
     margin-top: 3%;
   }
+  h2 {
+    text-align: center;
+    color: rgb(54, 115, 158);
+    font-family: 'Calibri';
+    font-size: 250%;
+  }
   h3 {
     text-align: center;
     color: rgb(71, 141, 177);
