@@ -1,0 +1,17 @@
+.gallery {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid rgb(20, 17, 40);
+  width: 200px;
+}
+.gallery:hover {
+  border-color: rgb(207, 163, 234);
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+.gallery .description { /*not in use rn*/
+  text-align: center;
+  padding: 5px;
+}

@@ -2,49 +2,75 @@
 <html>
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--metaname-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--metaname-->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-    <meta name='viewport' content='width=device-width, initial-scale=1' />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /><!--Awesomefont-->
-    <link rel='stylesheet' href='style.css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /><!--Awesomefont-->
+
+  <link rel='stylesheet' href='style.css'>
+  <link rel='stylesheet' href='header.css'>
+  <!-- js button functionality below -->
+  <script src="Portfolio.js" defer></script>
 </head>
 
 <body>
+  <header class="header">
+    <div class="container text-center">
+      <h1>Grace Hinkle Portfolio</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <div class="navbuttonBox">
+          <button class="navbar-toggler nav-button" type="button" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <!--navbar-toggler  data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"-->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><span class="linkBlocks">Home</span><i
+                  class="fa-solid fa-house"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="websites.html"><span class="linkBlocks">Websites</span><i
+                  class="fa-solid fa-computer-mouse"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="games.html"><span class="linkBlocks">Games</span><i
+                  class="fa-solid fa-gamepad"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="art.html"><span class="linkBlocks">Art</span><i
+                  class="fa-solid fa-paintbrush"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><span class="linkBlocks">Contact</span><i
+                  class="fa-solid fa-address-book"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="contentBlock">
     <br>
-    <h1>Games</h1>
-
-    <ul class="nav">
-        <li><a href="index.html">Home<i class="fa-solid fa-house"></i></a></li>
-        <li><a href="websites.html">Websites<i class="fa-solid fa-computer-mouse"></i></a></li>
-        <li><a href="games.html">Games<i class="fa-solid fa-gamepad"></i></a></li>
-        <li><a href="art.html">Art<i class="fa-solid fa-paintbrush"></i></a></li>
-        <li><a href="contact.html">Contact<i class="fa-solid fa-address-book"></i></a></li>
-    </ul>
     <br>
-    <br>
-    <br>
-    <br>
-    <i class="fa-solid fa-gamepad"></i><i class="fa-solid fa-gamepad"></i><i class="fa-solid fa-gamepad"></i><i
-        class="fa-solid fa-gamepad"></i><i class="fa-solid fa-gamepad"></i><i class="fa-solid fa-gamepad"></i><i
-        class="fa-solid fa-gamepad"></i>
-    <br>
-    <br>
-    <br>
-    <br>
-    <p id="about_me">Throughout college I've grown a better understanding of the basics of game building through Unity and have
-        created both 3D and 2D functioning games.</p>
+    <p id="about_me">Throughout college I've grown a better understanding of the basics of game building through Unity
+      and have
+      created both 3D and 2D functioning games.</p>
     <br>
     <div></div>
     <br>
@@ -52,71 +78,76 @@
     <br>
     <h5>Background:</h5>
     <p>The Dragons Keep is a 2D platformer game I built in my first semester of college, and have been growing bit by
-        bit the more I learn. The premise right now is that you play as a humanoid creature who has been sent on a quest
-        by your ruler to track down the dragon who stole all of the royal jewels and collect any lost gems along the
-        way. The game so far includes two completed levels with which all the coding and asset designs I created myself.
-        When I first made The Dragons Keep, there was a big focus on the art aspects, from environment and sprite
-        designing, to the animations and even making background music for the levels.
-        The better I get at game creation and coding, the more I plan to improve the game. I have a made plans to expand
-        and fleshout the story, and have already begun working on a following levels beyond just the two. </p>
+      bit the more I learn. The premise right now is that you play as a humanoid creature who has been sent on a quest
+      by your ruler to track down the dragon who stole all of the royal jewels and collect any lost gems along the
+      way. The game so far includes two completed levels with which all the coding and asset designs I created myself.
+      When I first made The Dragons Keep, there was a big focus on the art aspects, from environment and sprite
+      designing, to the animations and even making background music for the levels.
+      The better I get at game creation and coding, the more I plan to improve the game. I have a made plans to expand
+      and fleshout the story, and have already begun working on a following levels beyond just the two. </p>
     <h5>Gameplay:</h5>
     <p>Move around by using the WASD Keys and jump to collect coins by pressing the spacebar. Dodge obstacles and moving
-        enemies, ride moving platforms across parts of the levels, and try to make it to the horned statues that light
-        up and save your progress. You will need a certain number of a certain type of gem to give to the Gatekeeper,
-        the snake statues, to proceed to the next level.</p>
+      enemies, ride moving platforms across parts of the levels, and try to make it to the horned statues that light
+      up and save your progress. You will need a certain number of a certain type of gem to give to the Gatekeeper,
+      the snake statues, to proceed to the next level.</p>
     <br>
     <h4>Videos</h4>
     <br>
     <div class='container' id="div">
-        <div class='row'>
-            <div class='col-md-4'>
-                <h5>Level 1 Gameplay</h5>A clip with audio to show off the starting gameplay, double jump, checkpoint
-                statues, sounds and music.
-                <br>
-                <iframe src="https://www.youtube.com/embed/TZVXHmCoTUk?si=oEI9cq8N0r4EZvLF"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class='col-md-4'>
-                <h5>Level 1 End</h5>The end of Level 1 to show you the Gatekeeper mechanic and how to progress to the
-                next level.
-                <br>
-                <iframe src="https://www.youtube.com/embed/bzTdASheYfU?si=21cw0RVnkpJi7N2Q"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class='col-md-4'>
-                <h5>Level 2 Gameplay</h5>A bit of Level 2 showing a few new enemy mechanics (rising spikes) and bonus
-                abilities (speed boost).
-                <br>
-                <iframe src="https://www.youtube.com/embed/a2Tmbkt8G3c?si=9EDxQEC1V_ZgMzqW"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+      <div class='row'>
+        <div class='col-md-4'>
+          <h5>Level 1 Gameplay</h5>A clip with audio to show off the starting gameplay, double jump, checkpoint
+          statues, sounds and music.
+          <br>
+          <iframe src="https://www.youtube.com/embed/TZVXHmCoTUk?si=oEI9cq8N0r4EZvLF" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <div class='col-md-4'>
+          <h5>Level 1 End</h5>The end of Level 1 to show you the Gatekeeper mechanic and how to progress to the
+          next level.
+          <br>
+          <iframe src="https://www.youtube.com/embed/bzTdASheYfU?si=21cw0RVnkpJi7N2Q" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class='col-md-4'>
+          <h5>Level 2 Gameplay</h5>A bit of Level 2 showing a few new enemy mechanics (rising spikes) and bonus
+          abilities (speed boost).
+          <br>
+          <iframe src="https://www.youtube.com/embed/a2Tmbkt8G3c?si=9EDxQEC1V_ZgMzqW" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
     <br>
     <div class='container' id="div">
-        <h5>Trailer</h5>
-        <div class='row'>
-            <div class='col-md-4'></div>
-            <div class='col-md-4'>I made this trailer in Adobe Premiere Pro with my own gameplay footage for a class. It
-                shows a more condensed and story driven version of the clips above^^^.
-                <br>
-                <iframe
-                    src="https://www.youtube.com/embed/JObKrIfeneI?si=CdUZWT2dbTbhnHt_" title="The Dragons Keep Trailer"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-            <div class='col-md-4'></div>
+      <h5>Trailer</h5>
+      <div class='row'>
+        <div class='col-md-4'></div>
+        <div class='col-md-4'>I made this trailer in Adobe Premiere Pro with my own gameplay footage for a class. It
+          shows a more condensed and story driven version of the clips above^^^.
+          <br>
+          <iframe src="https://www.youtube.com/embed/JObKrIfeneI?si=CdUZWT2dbTbhnHt_" title="The Dragons Keep Trailer"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <div class='col-md-4'></div>
+      </div>
     </div>
     <br>
     <h4>Gallery</h4>
-    <img src="Dragons Keep Gatekeeper.png" id="Game1" alt=""><img src="Dragons Keep waterfall.png" id="Game1" alt=""><img src="Dragons Keep Tree1.png" id="Game1" alt=""><img src="Dragons Keep water.png" id="Game1" alt=""><img src="Dragons Keep Tree3.png" id="Game1" alt="">  <img src="Dragons Keep sprite.png" id="Game1" alt=""><img src="Dragons Keep snake.png" id="Game1" alt="">  <img src="Dragons Keep sky.png" id="Game1" alt=""><img src="Dragons Keep Tree2.png" id="Game1" alt=""><img src="Dragons Keep dirt.png" id="Game1" alt=""><img src="Dragons Keep spike.png" id="Game1" alt=""><img src="Dragons Keep Checkpoint.png" id="Game1" alt="">
+    <img src="Dragons Keep Gatekeeper.png" id="Game1" alt=""><img src="Dragons Keep waterfall.png" id="Game1"
+      alt=""><img src="Dragons Keep Tree1.png" id="Game1" alt=""><img src="Dragons Keep water.png" id="Game1"
+      alt=""><img src="Dragons Keep Tree3.png" id="Game1" alt=""> <img src="Dragons Keep sprite.png" id="Game1"
+      alt=""><img src="Dragons Keep snake.png" id="Game1" alt=""> <img src="Dragons Keep sky.png" id="Game1" alt=""><img
+      src="Dragons Keep Tree2.png" id="Game1" alt=""><img src="Dragons Keep dirt.png" id="Game1" alt=""><img
+      src="Dragons Keep spike.png" id="Game1" alt=""><img src="Dragons Keep Checkpoint.png" id="Game1" alt="">
     <br>
     <br>
     <br>
@@ -124,53 +155,58 @@
     <br>
     <br>
     <h3>3D Creations</h3>
-    <p id="about_me">Most of my experience is with 2D, but I have begun the journey into learning how to make 3D videogames.
+    <p id="about_me">Most of my experience is with 2D, but I have begun the journey into learning how to make 3D
+      videogames.
     </p>
     <br>
     <div class='container' id="div">
-        <div class='row'>
-            <div class='col-md-6'>
-                <h4>Countdown Leapfrog</h4>A multiplayer minigame where you play against a friend on the same keyboard
-                to see who can gain the most points in 60 seconds. You are put into a big arena with obstacles and
-                pillars to jump on, to win you must collect 10 points before the other player does and the timer runs
-                out. You can collect points by picking up any of the limited number of coins the other player has't
-                taken yet, or by jumping over the other player fully without interference. If either of you win the game
-                will end with "You Won!", and if the time runs out before either of you can hit 10 points, you both
-                lose. to add an extra layer of challenge, you can't see the timer once the game is in play.
-            </div>
-            <div class='col-md-6'>
-                <h4>Shooter</h4>This is a shooter game prototype where you move around a little maze like arena and need
-                to dodge the fireballs the wandering enemy will shoot at you if they see you. You can kill the enemy by
-                aiming your crosshair and right clicking. However, not only will the enemy respawn, but they change
-                color and shape everytime. Sometimes they will be a big, bright and easy target, and other times they
-                will be small, hidden and hard to shoot. There is currently no way to win the game and it has a lot of
-                little bugs, but the main movement and shooting mechanics work.
-            </div>
+      <div class='row'>
+        <div class='col-md-6'>
+          <h4>Countdown Leapfrog</h4>A multiplayer minigame where you play against a friend on the same keyboard
+          to see who can gain the most points in 60 seconds. You are put into a big arena with obstacles and
+          pillars to jump on, to win you must collect 10 points before the other player does and the timer runs
+          out. You can collect points by picking up any of the limited number of coins the other player has't
+          taken yet, or by jumping over the other player fully without interference. If either of you win the game
+          will end with "You Won!", and if the time runs out before either of you can hit 10 points, you both
+          lose. to add an extra layer of challenge, you can't see the timer once the game is in play.
         </div>
+        <div class='col-md-6'>
+          <h4>Shooter</h4>This is a shooter game prototype where you move around a little maze like arena and need
+          to dodge the fireballs the wandering enemy will shoot at you if they see you. You can kill the enemy by
+          aiming your crosshair and right clicking. However, not only will the enemy respawn, but they change
+          color and shape everytime. Sometimes they will be a big, bright and easy target, and other times they
+          will be small, hidden and hard to shoot. There is currently no way to win the game and it has a lot of
+          little bugs, but the main movement and shooting mechanics work.
+        </div>
+      </div>
     </div>
     <br>
     <div class='container' id="div">
-        <div class='row'>
-            <div class='col-md-6'><iframe src="https://www.youtube.com/embed/_WwBzUKdvF8?si=nqF6JPgbbBXcvwtB"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-            <div class='col-md-6'><iframe src="https://www.youtube.com/embed/vPpSQ0qNcGQ?si=1PXv3jG5Aoyo8cdR"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-        </div>
+      <div class='row'>
+        <div class='col-md-6'><iframe src="https://www.youtube.com/embed/_WwBzUKdvF8?si=nqF6JPgbbBXcvwtB"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class='col-md-6'><iframe src="https://www.youtube.com/embed/vPpSQ0qNcGQ?si=1PXv3jG5Aoyo8cdR"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      </div>
     </div>
     <br>
     <div class='container' id="div">
-        <div class='row'>
-            <div class='col-md-6'><img src="Leapfrog Scene View.png" class="artImages2" alt=""></div>
-            <div class='col-md-6'><img src="Unity Shooter Overhead.png" class="artImages2" alt=""></div>
-        </div>
+      <div class='row'>
+        <div class='col-md-6'><img src="Leapfrog Scene View.png" class="artImages2" alt=""></div>
+        <div class='col-md-6'><img src="Unity Shooter Overhead.png" class="artImages2" alt=""></div>
+      </div>
     </div>
     <br>
     <br>
     <br>
+  </div>
+  <footer>
+
+  </footer>
 </body>
 
 </html>

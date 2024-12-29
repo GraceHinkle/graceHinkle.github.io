@@ -2,115 +2,261 @@
 <html>
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--metaname-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--metaname-->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-    <meta name='viewport' content='width=device-width, initial-scale=1' />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /><!--Awesomefont-->
-    <link rel='stylesheet' href='style.css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /><!--Awesomefont-->
+
+  <link rel='stylesheet' href='style.css'>
+  <link rel='stylesheet' href='artStyle.css'>
+  <link rel='stylesheet' href='header.css'>
+  <!-- js button functionality below -->
+  <script src="Portfolio.js" defer></script>
 </head>
 
 <body>
+  <header class="header">
+    <div class="container text-center">
+      <h1>Grace Hinkle Portfolio</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <div class="navbuttonBox">
+          <button class="navbar-toggler nav-button" type="button" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <!--navbar-toggler  data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"-->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><span class="linkBlocks">Home</span><i
+                  class="fa-solid fa-house"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="websites.html"><span class="linkBlocks">Websites</span><i
+                  class="fa-solid fa-computer-mouse"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="games.html"><span class="linkBlocks">Games</span><i
+                  class="fa-solid fa-gamepad"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="art.html"><span class="linkBlocks">Art</span><i
+                  class="fa-solid fa-paintbrush"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><span class="linkBlocks">Contact</span><i
+                  class="fa-solid fa-address-book"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="contentBlock">
     <br>
-    <h1>Art</h1>
-
-    <ul class="nav">
-        <li><a href="index.html">Home<i class="fa-solid fa-house"></i></a></li>
-        <li><a href="websites.html">Websites<i class="fa-solid fa-computer-mouse"></i></a></li>
-        <li><a href="games.html">Games<i class="fa-solid fa-gamepad"></i></a></li>
-        <li><a href="art.html">Art<i class="fa-solid fa-paintbrush"></i></a></li>
-        <li><a href="contact.html">Contact<i class="fa-solid fa-address-book"></i></a></li>
-    </ul>
     <br>
-    <br>
-    <br>
-    <br>
-    <i class="fa-solid fa-paintbrush"></i><i class="fa-solid fa-paintbrush"></i><i class="fa-solid fa-paintbrush"></i><i
-        class="fa-solid fa-paintbrush"></i><i class="fa-solid fa-paintbrush"></i><i
-        class="fa-solid fa-paintbrush"></i><i class="fa-solid fa-paintbrush"></i>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2>Me and my Art</h2>
+    <h3>Me and My Art</h3>
     <br>
     <p id="about_me">I've been doing all kinds of art since I was a little girl. I have experience doing a ton of
-        different traditional art, from oil painting to guache to colored pencils. However, for work, school and passion
-        I've been focusing on a variety of digital
-        art. Recently I've begun selling my art at conventions and I have always wanted to create comics or animations
-        in some capacity and I am slowly learning the skills needed
-        to do just that.
+      different traditional art, from oil painting to guache to colored pencils. However, for work, school and passion
+      I've been focusing on a variety of digital
+      art. Recently I've begun selling my art at conventions and I have always wanted to create comics or animations
+      in some capacity and I am slowly learning the skills needed
+      to do just that.
     </p>
-    <p id="about_me">Bellow is me selling my art locally, an animation I have made, my 3D models and a gallery of my digitalart.
+    <p id="about_me">Bellow is me selling my art locally, an animation I have made, my 3D models and a gallery of my
+      digitalart.
     </p>
     <br>
     <br>
     <div class='container' id="div">
-        <h3>Comic Arts Festival</h3>
-        <div class='row'>
-            <p>Me showcasing my traditional art and selling digital prints in the Artist-Alley at the Boise Comic-Arts
-                Festival, August 25th, 2024</p>
-            <img src="ComicArtsFest.jpg" class="comicArtsFest" alt="">
-        </div>
+      <h3>Comic Arts Festival</h3>
+      <div class='row'>
+        <p>Me showcasing my traditional art and selling digital prints in the Artist-Alley at the Boise Comic-Arts
+          Festival, August 25th, 2024</p>
+        <img src="ComicArtsFest.jpg" class="comicArtsFest" alt="">
+      </div>
     </div>
     <br>
     <br>
     <div class='container' id="div">
-        <h3>Animation</h3>
-        <div class='row'>
-            <p>I challenged myself to make a frame-by-frame 30fps animation in Photoshop in one week in July of 2024. This is the
-                result.</p>
-            <br>
-            <iframe class="magicalHorns" src="https://www.youtube.com/embed/yVsrmgmmY7Y?si=7fZ8EmErlEGcwpCa"
-                title="Magical Horns of Land and Sea" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
-        </div>
+      <h3>Animation</h3>
+      <div class='row'>
+        <p>I challenged myself to make a frame-by-frame 30fps animation in Photoshop in one week in July of 2024. This
+          is the
+          result.</p>
+        <br>
+        <iframe class="magicalHorns" src="https://www.youtube.com/embed/yVsrmgmmY7Y?si=7fZ8EmErlEGcwpCa"
+          title="Magical Horns of Land and Sea" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+      </div>
     </div>
     <br>
     <br>
     <div class='container' id="div">
-        <h3>3D Models</h3>
-        <div class='row'>
-            <p>I have been 3D modeling off an on for both fun and school-work for a year now. I know the basics of both Maya and Blender and have a preference for Low-poly builds</p>
-            <img src="JediArchives.png"class="artImages" alt="Blender"><img src="BlenderSaber1.png"class="artImagesSaber" alt="Blender"><img src="LavaBasinLowpoly3D.jpg"class="artImages" alt="Blender">
-            <img src="Bench3D.jpg" class="artImages" alt="Maya"><img src="BookLowPoly3D.jpg" class="artImages" alt="Maya"><img src="GraveLowPoly3D.jpg"class="artImages" alt="Maya">
-        </div>
+      <h3>3D Models</h3>
+      <p>I have been 3D modeling off an on for both fun and school-work for a year now. I know the basics of both Maya
+        and Blender and have a preference for Low-poly builds</p>
+      <!-- <img src="JediArchives.png" class="artImages" alt="Blender"> KEPT THIS TO SHOW OLD-->
+      <div class="gallery">
+        <a target="_blank" href="Images/3Dmodels/JediArchives.png">
+          <img src="Images/3Dmodels/JediArchives.png" alt="Mini Jedi Archives made in Blender">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/3Dmodels/BlenderSaber1.png">
+          <img src="Images/3Dmodels/BlenderSaber1.png" alt="Blue simple Lightsaber made in Blender">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/3Dmodels/LavaBasinLowpoly3D.jpg">
+          <img src="Images/3Dmodels/LavaBasinLowpoly3D.jpg" alt="Low-poly lava basin made in Blender">
+        </a>
+      </div>
     </div>
     <br>
     <br>
-    <h3>Gallery</h3>
     <br>
-    <img src="GoldenMoon.png" class="artImages2" alt=""><img src="Chosen.png" class="artImages2" alt="">
-    <img src="PrG Glasses.png" class="artImages2" alt=""><img src="Ares chp 225 Redraw.png" class="artImages2" alt="">
-    <img src="King and Queen of the Sky.jpg" class="artImages2" alt=""><img src="Enviro G200 jpg.jpg" class="artImages2"
-        alt="">
-    <img src="SpringDragon.png" class="artImages" alt=""><img src="Last Unicorn.png" class="artImages" alt=""><img
-        src="Katsu.png" class="artImages" alt="">
-    <img src="Warrior.png" class="artImages2" alt=""><img src="Yosemite Post Card.png" class="artImages2" alt="">
-    <img src="Jan 8th .png" class="artImages" alt=""><img src="Catboy.png" class="artImages" alt=""><img src="Lady.png"
-        class="artImages" alt="">
-    <img src="Enviro.png" class="artImages2" alt=""><img src="Dragon&Bird.png" class="artImages2" alt="">
-    <img src="Clone Wars Anakin in Blood copy.png" class="artImages" alt=""><img
-        src="Discord Ares 1 pfp (more Purp).png" class="artImages" alt=""><img src="Khoshekh the Floating Cat.png"
-        class="artImages" alt="">
-    <img src="Eyeball.png" class="artImages2" alt=""><img src="AGiftforaGod.png" class="artImages2" alt="">
-    <img src="Mermaid Eel.png" class="artImages2" alt=""><img src="LavaGirl.png" class="artImages2" alt="">
-    <br>
-    <br>
-    <br>
+    <div class='container' id="div">
+      <h3>Gallery</h3>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/GoldenMoon.png">
+          <img src="Images/Digital/GoldenMoon.png" alt="Mark Hamill in his gold suit for the German Star Wars Musical">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Chosen.png">
+          <img src="Images/Digital/Chosen.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/PrG Glasses.png">
+          <img src="Images/Digital/PrG Glasses.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Ares chp 225 Redraw.png">
+          <img src="Images/Digital/Ares chp 225 Redraw.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/King and Queen of the Sky.jpg">
+          <img src="Images/Digital/King and Queen of the Sky.jpg" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Enviro G200 jpg.jpg">
+          <img src="Images/Digital/Enviro G200 jpg.jpg" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/SpringDragon.png">
+          <img src="Images/Digital/SpringDragon.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Last Unicorn.png">
+          <img src="Images/Digital/Last Unicorn.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Katsu.png">
+          <img src="Images/Digital/Katsu.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Warrior.png">
+          <img src="Images/Digital/Warrior.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Yosemite Post Card.png">
+          <img src="Images/Digital/Yosemite Post Card.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Jan 8th .png">
+          <img src="Images/Digital/Jan 8th .png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Catboy.png">
+          <img src="Images/Digital/Catboy.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Lady.png">
+          <img src="Images/Digital/Lady.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Enviro.png">
+          <img src="Images/Digital/Enviro.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Dragon&Bird.png">
+          <img src="Images/Digital/Dragon&Bird.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Clone Wars Anakin in Blood copy.png">
+          <img src="Images/Digital/Clone Wars Anakin in Blood copy.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Discord Ares 1 pfp (more Purp).png">
+          <img src="Images/Digital/Discord Ares 1 pfp (more Purp).png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Khoshekh the Floating Cat.png">
+          <img src="Images/Digital/Khoshekh the Floating Cat.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Eyeball.png">
+          <img src="Images/Digital/Eyeball.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/AGiftforaGod.png">
+          <img src="Images/Digital/AGiftforaGod.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/Mermaid Eel.png">
+          <img src="Images/Digital/Mermaid Eel.png" alt="">
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="Images/Digital/LavaGirl.png">
+          <img src="Images/Digital/LavaGirl.png" alt="">
+        </a>
+      </div>
+      <!-- Old style of images
+      <img src="Mermaid Eel.png" class="artImages2" alt=""><img src="LavaGirl.png" class="artImages2" alt=""> -->
+    </div>
+  </div>
+  <footer>
+
+  </footer>
 </body>
 
 </html>

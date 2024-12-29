@@ -19,12 +19,12 @@
         src: url(RubikIso-Regular.ttf);
     }
   /*headings*/
-  /* h1 {
+  h1 {
     text-align: center;
     color: rgb(70, 104, 133);
     font-family: 'Impact';
     font-size: 350%;
-  } */
+  }
   h2 {
     text-align: center;
     color: rgb(54, 115, 158);
@@ -36,18 +36,6 @@
     color: rgb(71, 141, 177);
     font-family: 'Calibri';
     font-size: 150%;
-  }
-  h4 {
-    text-align: center;
-    color: rgb(86, 184, 201);
-    font-family: 'Calibri';
-    font-size: 115%;
-  }
-  h5 {
-    text-align: center;
-    color: rgb(71, 141, 177);
-    font-family: 'Calibri';
-    font-size: 80%;
   }
   /*text*/
   p {
@@ -70,58 +58,10 @@
     margin-left: 7%;
     margin-right: 7%;
   }
-  #sharkiframe {
-    margin-right: 10%;
-    height: 200%;
-    width: 65%;
-  }
   #div {
     font-family: 'Calibri';
     color: rgb(207, 163, 234);
     text-align: center;
-  }
-  .contactBox {
-    margin-top: 50px;
-    font-family: 'Calibri';
-    color: rgb(131, 36, 189);
-    background-color: rgb(255, 242, 225);
-    padding: 1.27%;
-    width: 55%;
-    outline-style: solid;
-    border-radius: 40px;
-    /* outline-style: dashed; */
-    outline-width:.2cap;
-    outline-color: rgb(207, 163, 234);
-    align-content: center;
-    text-align: center;
-  }
-  #Game1 {
-    width: 6%;
-    margin-left: 1%;
-    margin-right: 1%;
-  }
-
-/*Class Selectors*/
-  /*images*/
-  .artImages {
-    margin-left: 2%;
-    margin-top: 1.5%;
-    width: 30%; 
-  }
-  .artImages2 {
-    margin-left: 2%;
-    margin-top: 1.5%;
-    width: 47%; 
-  }
-  .artImagesSaber {
-    margin-left: 2%;
-    margin-top: 1.5%;
-    width: 20%; 
-  }
-  .comicArtsFest {
-    margin-left: 25%;
-    margin-top: 1.5%;
-    width: 50%; 
   }
   .magicalHorns {
     margin-left: 30%;
@@ -170,3 +110,18 @@
     .rotate:hover {
             animation: rotation .5s linear infinite;
         }
+
+  .header {
+    background-color: rgb(31, 19, 43);
+    padding-top: 1rem;
+  }
+#me_block{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#me {
+  border: 2px solid white;
+  display: block;
+  margin: auto;
+  width: 150px;
+}
