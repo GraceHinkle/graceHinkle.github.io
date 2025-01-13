@@ -8,11 +8,11 @@
     margin-left: 8%;
     margin-right: 4%;
     }
-  iframe{
+  /* iframe{
       margin-left: 10%;
       height: 20;
       width: 30;
-    }
+    } */
 
     @font-face {
         font-family: myFirstFont;
@@ -45,9 +45,9 @@
   }
   h5 {
     text-align: center;
-    color: rgb(71, 141, 177);
+    color:rgb(44, 74, 119);
     font-family: 'Calibri';
-    font-size: 80%;
+    font-size: 100%;
   }
   /*text*/
   p {
