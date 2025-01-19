@@ -34,7 +34,7 @@ header {
   /*OLD OLD STUFF BUT STILL KINDA WORKS*/
         
   .header {
-    background-color: rgb(207, 163, 234);
+    background-color: rgb(220, 186, 144);
     padding-top: 1rem;
   }
   /* Profile Image in Header */
@@ -66,7 +66,7 @@ header {
   /* color: rgb(207, 163, 234); */
 }
 .nav-link:hover {
-  color: rgb(70, 167, 216);
+  color: rgb(207, 163, 234);
 }
 .nav-links.visible {
   display: block;
@@ -104,12 +104,12 @@ header {
   }
 
   .linkBlocks {
-    background-color: rgb(207, 163, 234);
+    background-color: rgb(220, 186, 144);
     text-align: center;
     align-self: center;
     border-style: solid;
     border-width: 10px;
-    border-color: rgb(207, 163, 234);
+    border-color: rgb(220, 186, 144);
   }
 
   /*BODY*/
@@ -123,8 +123,24 @@ header {
 
   /*FOOTER*/
   footer {
-    background-color: rgb(207, 163, 234);
+    background-color: rgb(220, 186, 144);
     /* background-color: rgb(31, 19, 43); */
     padding: 2rem;
     /* margin-top: 2rem; */
   }
+
+
+  /* nav bar old navbar
+  .nav {
+    position:absolute;
+    width: 15%;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    background-color: #251a42;
+    text-align: center;
+    font-size: 75%;
+    text-decoration: solid;
+  } */
